@@ -1,0 +1,65 @@
+.home-page {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  font-family: serif;
+  background-color: whitesmoke ;
+  padding-top: 100px;
+}
+
+.home-page img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  top: 15%;
+  left: 65vw;
+}
+
+.home-page-info {
+  margin-left: 5rem;
+  padding-top: 200px;
+}
+
+.home-page-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.home-page-info h2 {
+  font-size: calc(35px + 2vw);
+  color:orange;
+  text-transform: capitalize;
+}
+
+.home-page-auth span {
+  font-size: 35px;
+  color: orange;
+  text-transform: capitalize;
+}
+
+.login-btn {
+  margin-top: 30px;
+  display: flex;
+  gap: 1rem;
+}
+
+.login-btn a {
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px solid gold;
+  border-radius: 25px;
+  font-size: 20px;
+  color: gray;
+  transition: ease-in-out 0.5s;
+}
+
+.login-btn a:hover {
+  padding: 10px 25px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: gold;
+  color: white;
+}
